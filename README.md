@@ -19,14 +19,12 @@ In this game, we created 3 levels, each with a 90-second time limit. During game
 
 While in Super Mode, Pac-Man can eat ghosts and run through doors.
 
-====================================================================================================
-
+============================================================================================
 ### Data Structure
 
 We use vectors of `unique_ptr` to manage static objects (e.g., keys, doors, walls) and moving objects (e.g., ghosts). This allows us to iterate through the vectors to manage movement and functionality.
 
-====================================================================================================
-
+============================================================================================
 ### Algorithm
 
 **Ghosts Movement:**
